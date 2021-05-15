@@ -1,0 +1,99 @@
+@media (max-width:600px){
+    /*main*/
+        #main > div, #main #login, #main #logo_main{
+            width: 20em;
+            height: 20em;
+            top:calc(50%/3);
+        }
+        #main > div img{
+            bottom: 2%;
+            margin: 0 43%;
+            width: 13%;
+        }
+        #main .fa-user-plus{
+            font-size: 2em;
+            margin:5%;
+        }
+    /*description*/
+        #description > video{
+            width: 100%;
+            left: 0;
+            border-radius: 0;
+        }
+        #description > div{
+            background-color: var(--rose);
+            position: absolute;
+            margin: 56% 0 0;
+        }
+        #description > div > h1{
+            font-size: 3em;
+        }
+        #description > div > p{
+            font-size: 1.5em;
+            margin: 3% 7%;
+        }
+    /*events*/
+        #events h2{
+            font-size: 3em;
+        }
+        #events > div{
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto;
+            height: 100vh;
+            width: 100%;
+        }
+        #events > div h3{
+            font-size: 2em;
+    }
+    /*register*/
+        #register{
+            border-radius: 20px;
+        }
+        #register h2{
+            font-size: 1.5em;
+        }
+        #register hr{
+            border: 2px solid black;
+        }
+        #register form div{
+            flex-direction: column;
+        }
+        /*form*/
+            #register form input{
+                width: 95%;
+            }
+            #register form select{
+                width: 100%;
+            }
+            #register form input[type="date"], #register form select{
+                margin: 5% 0;
+            }
+            #register form .fa-times{
+                top:2%;
+                font-size: 2em;
+            }
+            /*submit*/
+                form button{
+                    padding: 3%;
+                    bottom: 2%;
+                    right: 2%;
+                }
+                form button i{
+                    font-size: 2em;
+                }
+        /*message popup*/
+            #message{
+                width: 80%!important;
+                padding: 6%!important;
+            }
+    /*login*/
+        #login h2{
+            font-size: 3em;
+        }
+        #login form .buttons{
+            position: relative;
+            font-size: 2.5em;
+            text-align: center;
+            margin: 0% 0 0 0;
+        }
+}

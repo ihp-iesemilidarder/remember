@@ -1,0 +1,56 @@
+[
+    {
+        "title":"Restaurante Mexicano",
+        "address":"Rúa Iglesias Esponda, 1, 36201 Vigo, Pontevedra",
+        "tlf":"886 14 20 47",
+        "categories":["mexic"],
+        "description":"Cantina mexicana con toque moderno con las paredes decoradas con imágenes de cine.",
+        "img":"restaurantemexicano.jpeg",
+        "type":"restaurants"
+    },
+    {
+        "title":"Charro Mex",
+        "address":"Av. da Habana, 63, 32004 Ourense, Province of Ourense",
+        "tlf":"988 22 63 60",
+        "categories":["mexic"],
+        "description":"Original salón con figurillas, recuerdos y pinturas de inspiración mexicana que sirve recetas tex-mex.",
+        "img":"charromex.jpeg",
+        "type":"restaurants"
+    },
+    {
+        "title":"Burger King",
+        "address":"Rua de la, Rúa da Senra, 13, 15702 Santiago de Compostela, A Coruña",
+        "tlf":"675 78 36 79",
+        "categories":["fast_food","hamburguer"],
+        "description":"Conocida cadena de comida rápida que sirve hamburguesas, patatas fritas, batidos y desayunos.",
+        "img":"burgerking.jpeg",
+        "type":"restaurants"
+    },
+    {
+        "title":"MacDonald's",
+        "address":"Ponte Vella Centro Comercial y Ocio, Rúa Ribeira Sacra, 50, 32003 Ourense",
+        "tlf":"988 21 59 11",
+        "categories":["fast_food","hamburguer"],
+        "description":"Veterana cadena de comida rápida famosa por sus hamburguesas, patatas fritas y bebidas, con opción de menús.",
+        "img":"macdonalds.jpg",
+        "type":"restaurants"
+    },
+    {
+        "title":"Hamburgaria Relax",
+        "address":"Av. Dr. Francisco Sá Carneiro 265, 4630-232 Marco de Canaveses, Portugal",
+        "tlf":"+351 255 523 241",
+        "categories":["relax","hamburguer"],
+        "description":"Comete un hamburguesa, con musica clasica",
+        "img":"hamburgariarelax.jpeg",
+        "type":"restaurants"
+    },
+    {
+        "title":"A Chiringa - Praia de Nerga",
+        "address":"Lugar Nerga, 117, 36945 Nerga, Pontevedra",
+        "tlf":"971 56 79 53",
+        "categories":["relax"],
+        "description":"",
+        "img":"praiadenerga.jpeg",
+        "type":"restaurants"
+    }
+]

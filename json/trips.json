@@ -1,0 +1,66 @@
+[
+    {
+        "title":"Viajes con Yoga y Bienestar",
+        "address":"Rúa do Ecuador, 65, 1ºIzq, 36204 Vigo, Pontevedra",
+        "tlf":"697 42 04 52",
+        "categories":["luxe"],
+        "img":"viajes.jpeg",
+        "type":"trips"
+    },
+    {
+        "title":"Viajes Familias Monoparentales",
+        "address":"Calle de Galileo, 25, 1º A, 28015 Madrid",
+        "tlf":"637 44 27 52",
+        "categories":["family"],
+        "img":"viajes.jpeg",
+        "type":"trips"
+    },
+    {
+        "title":"Viajes Mundinovios",
+        "address":"Calle de las Eras, n5 1, planta, 28411 Moralzarzal, Madrid",
+        "tlf":"915 21 06 81",
+        "categories":["honeymoon"],
+        "img":"viajes.jpeg",
+        "type":"trips"
+    },
+    {
+        "title":"UNICAMPUS - Fiestas Universitarias, Viajes fin de Carrera y Ecuador",
+        "address":"Calle de Cea Bermúdez, 14, 28003 Madrid",
+        "tlf":"915 45 96 75",
+        "categories":["parties"],
+        "img":"viajes.jpeg",
+        "type":"trips"
+    },
+    {
+        "title":"Destinia S.L.U",
+        "address":"C/ Gran Vía, 22, Dcdo. 4º, 28013 Madrid",
+        "tlf":"915 24 24 00",
+        "categories":["all_inclusive"],
+        "img":"viajes.jpeg",
+        "type":"trips"
+    },
+    {
+        "title":"Ontdek Galicië",
+        "address":"Valboa 25, 36192 A Armenteira, Pontevedra",
+        "tlf":"649 06 92 41",
+        "categories":["breakfast"],
+        "img":"viajes.jpeg",
+        "type":"trips"
+    },
+    {
+        "title":"Galicia Mystic Tours S.L.",
+        "address":"Rúa Sagasta, 14, 3IZ, 36001 Pontevedra",
+        "tlf":"676 55 50 73",
+        "categories":["food"],
+        "img":"viajes.jpeg",
+        "type":"trips"
+    },
+    {
+        "title":"Viajes Mao",
+        "address":" Rúa Río Mao, n° 33, bajo, 32001 Ourense, Province of Ourense",
+        "tlf":"988 06 29 34",
+        "categories":["dinner"],
+        "img":"viajes.jpeg",
+        "type":"trips"
+    }
+]

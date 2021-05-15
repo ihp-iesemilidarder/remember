@@ -1,0 +1,23 @@
+@import url("animations.css");
+@import url("fonts.css");
+:root{
+    --rose: #fecbcb;
+    --add-user: rgb(0, 194, 203);
+    --login-input: rgb(147, 147, 147);
+    --heart: red;
+    --share:rgb(75, 198, 247);
+    --comment:rgb(88, 247, 75);
+    --pagination:#6e8bff;
+}
+*{
+    margin: 0;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+body{
+    background: url("../img/wallpaper.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}

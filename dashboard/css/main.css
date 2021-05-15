@@ -1,0 +1,204 @@
+@import url("../../css/init.css");
+main{
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+/*logo user*/
+    .fa-user{
+        background: white;
+        font-size: 3em;
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 20px;
+        margin: 3% 5% 3% 3%;
+        border-radius: 100%;
+        color: rgba(0,0,0,.5);
+        cursor: pointer;
+        z-index:9999999999;
+    }
+    #profile > span{
+        position: absolute;
+        left: -30px;
+        font-size: 30px;
+        background: white;
+        padding: 10px 50px;
+        bottom: -60px;
+        border-radius: 100%;
+        font-family: "Playlist-Script";
+        color: black;
+    }
+/* cateogies' tabs*/
+    aside{
+        background: var(--rose);
+        position: relative;
+        margin: 10% 5% 70% 5%;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+        height: 100vh;
+    }
+    aside input[type="text"]{
+        width: 88%;
+        margin: 10% 4%;
+        font-size: 1.5em;
+        border-radius: 100px;
+        padding: 1% 2%;
+        background: rgba(255,255,255,.5);
+        transition: 1s;
+    }
+    aside input[type="text"]:focus{
+        box-shadow: 1px 1px 5px rgba(0,0,0,.5) inset;
+        transition: 1s;
+    }
+    aside ul{
+        list-style: none;
+        position: absolute;
+        width: 100%;
+        font-size:2em;
+        font-family:"Playlist-Script";
+        text-align: right;
+        padding: 0;
+    }
+    aside ul li{
+        padding: 5%;
+        transition: .3s;
+        cursor:pointer;
+        color: gray;
+    }
+    aside ul li:hover, aside ul li[data-active]{
+        background: rgba(255,255,255,.5);
+        transition: .3s;
+        color: black;
+        border-radius: 0px;
+        box-shadow: 0px 0px 5px rgba(0,0,0,.5) inset;
+    }
+    aside ul li.favourites{
+      color:red!important;
+      transition: .5s;
+    }
+    aside ul li.favourites:hover, aside ul li.favourites[data-active]{
+      background:red!important;
+      color:white!important;
+      transition: .5s;
+    }
+    aside ul li.favourites:not(:hover) i{
+        transition:1s!important;
+    }
+    aside ul li.favourites:hover i,aside ul li.favourites[data-active] i{
+        animation-name: heart-beart;
+        animation-duration: 1s;
+        animation-iteration-count:infinite;
+    }
+    aside ul li i{
+        position:absolute;
+        left:0;
+        margin: 2% 5%;
+    }
+/*items*/
+    article{
+        display: grid;
+        grid-template-columns: auto  auto auto auto;
+        margin: 5%;
+    }
+    article > div{
+        background:var(--rose);
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 20vh auto;
+        color:black;
+        position: relative;
+        box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+        border-radius: 10px ;
+        margin: 5%;
+        max-height: 50vh;
+    }
+    article > div  p.paragraph{
+        max-height: 56px;
+    }
+    article > div h2{
+        font-size: 1.5em;
+        text-align: center;
+        margin:3%;
+        font-family: "norwester"
+    }
+    article > div p{
+        padding: 0 5% 0 5%;
+        margin:5%;
+        font-family:"norwester";
+        font-size: 1em;
+        overflow: auto;
+        word-wrap: break-word;
+    }
+    article > div audio{
+        width: 100%;
+        position: relative;
+    }
+    article > div > div:first-child{
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    article i{
+        position: absolute;
+        font-size: 2em;
+        transform: scale(1.2);
+        transition: 1s;
+        cursor: pointer;
+    }
+    article i:hover{
+        transform: scale(1.5);
+        transition: 1s;
+    }
+    .category .fa-heart{
+        top: -2%;
+        left: -4%;
+        color: var(--heart);
+    }
+    .fa-share-alt{
+        bottom: -2%;
+        right: -4%;
+        color: var(--share);
+    }
+    .fa-comment{
+        bottom: -2%;
+        left: 0;
+        color: var(--comment);
+    }
+/*pagination*/
+    #pagination{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        width: 4%;
+        right: 0;
+        margin: 2% 1%;
+    }
+    #pagination button{
+        border-radius: 100% 0;
+        background: #6e8bff;
+        font-size: 1em;
+        font-family: "Norwester";
+        color: white;
+        cursor: pointer;
+        transition:1s;
+        height: 7vh;
+        margin:10% 0;
+        filter: drop-shadow(5px 5px 5px white);
+        transition: 1s;
+    }
+    #pagination .active{
+        background: white;
+        color:#6e8bff;
+        filter: drop-shadow(5px 5px 5px #6e8bff);
+        transition: 1s;
+    }
+    #pagination button:hover{
+        transform:scale(1.2);
+        border-radius: 0 100%;
+        transition:1s;
+    }

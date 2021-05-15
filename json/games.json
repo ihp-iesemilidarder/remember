@@ -1,0 +1,65 @@
+[
+    {
+        "title":"Assasins creed unity",
+        "authors":["Alexandre Amancio"],
+        "categories":["Action","3D"],
+        "publishedAge":"2014",
+        "description":"Presentamos Assassin's Creed® Unity, la evolución de la nueva generación de la exitosa franquicia que emplea el motor Anvil mejorado. Desde la toma de la Bastilla hasta la ejecución del rey Luis XVI, vive la Revolución francesa como nunca antes y ayuda al pueblo de Francia a forjarse un destino completamente nuevo.",
+        "img":"assasinscreed5.jpeg",
+        "type":"games"
+    },
+    {
+        "title":"Minecraft",
+        "authors":["Markus Persson", "Jens Bergensten", "Stephen McManus"],
+        "categories":["Adventure","3D"],
+        "publishedAge":"2009",
+        "description":"Minecraft es un videojuego de mundo abierto donde la exploración y las construcciones son fundamentales. ... Al ser un videojuego de mundo abierto, no tiene una misión concreta (salvo alguno de sus modos de juego) y consiste en la construcción libre mediante el uso de cubos con texturas tridimensionales"
+        ,"img":"minecraft.jpeg",
+        "type":"games"
+    },
+    {
+        "title":"GTA V",
+        "authors":["Rockstart North","3D"],
+        "categories":["open_world","Action","Adventure"],
+        "publishedAge":"2013",
+        "description":"Grand Theft Auto V es un videojuego de acción-aventura de mundo abierto desarrollado por el estudio Rockstar North y distribuido por Rockstar Games. Fue lanzado el 17 de septiembre de 2013 para las consolas PlayStation 3 y Xbox 360.."
+        ,"img":"gta5.jpeg",
+        "type":"games"
+    },
+    {
+        "title":"Naruto Shippūden: Ultimate Ninja Storm 4",
+        "authors":["CyberConnect2"],
+        "categories":["anime"],
+        "publishedAge":"2016",
+        "description":"Naruto Shippūden: Ultimate Ninja Storm 4, conocido en Japón como Naruto ultimate Storm 4, ​ es un videojuego basado en el manga y anime Naruto Shippūden desarrollado por CyberConnect2 para las consolas Xbox One, Nintendo Switch y PlayStation 4."
+        ,"img":"ultimateninjastorm4.jpeg",
+        "type":"games"
+    },
+    {
+        "title":"Cuphead",
+        "authors":["Jared Moldenhauer"],
+        "categories":["2D"],
+        "publishedAge":"2017",
+        "description":"Cuphead es un videojuego desarrollado y publicado por la empresa canadiense StudioMDHR perteneciente al género de run and gun. Fue lanzado al mercado el 29 de septiembre de 2017 para Microsoft Windows, Xbox One y Steam.​ Fue lanzado en 2018 para macOS, en 2019 para Nintendo Switch y en 2020 para PlayStation 4"
+        ,"img":"cuphead.png",
+        "type":"games"
+    },
+    {
+        "title":"Super Mario 64",
+        "authors":["Nintendo", "Nintendo Entertainment Analysis and Development"],
+        "categories":["3D"],
+        "publishedAge":"1996",
+        "description":"Super Mario 64 es un videojuego de plataformas de mundo abierto para la videoconsola Nintendo 64, desarrollado por Nintendo Entertainment Analysis and Development y publicado por la propia Nintendo."
+        ,"img":"supermario64.jpeg",
+        "type":"games"
+    },
+    {
+        "title":"Marvel's Avengers",
+        "authors":["Crystal Dynamics", "Eidos Montréal", "Crystal Northwest", "Nixxes Software", "Eidos Interactive"],
+        "categories":["heros"],
+        "publishedAge":"2012",
+        "description":"Marvel's Avengers es un videojuego desarrollado por Crystal Dynamics y distribuido por Square Enix, basado en los personajes de cómics Los Vengadores de Marvel. Se lanzó el 4 de septiembre de 2020 en PlayStation 4, Xbox One, Microsoft Windows y Stadia"
+        ,"img":"marvelsavengers.png",
+        "type":"games"
+    }
+]

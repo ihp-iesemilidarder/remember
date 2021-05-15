@@ -1,0 +1,64 @@
+[
+    {
+        "title":"The walking dead",
+        "authors":["Robert Kirkman","Tony Moore","Charlie Adlard"],
+        "categories":["Action"],
+        "publishedAge":"2010",
+        "description":"the Walking Dead tiene lugar después del inicio de un apocalipsis zombi mundial. Los zombis, coloquialmente llamados «caminantes», se arrastran hacia los humanos vivos y otras criaturas para comerlos; se sienten atraídos por el ruido, como los disparos, y por diferentes aromas, por ejemplo humanos",
+        "img":"thewalkingdead.jpeg"
+    },
+    {
+        "title":"Titanes",
+        "authors":["Akiva Goldsman","Geoff Johns","Greg Berlanti"],
+        "categories":["Adventure"],
+        "publishedAge":"2018",
+        "description":"Titanes sigue a los jóvenes superhéroes del equipo homónimo mientras luchan contra el mal y otros peligros. ​ Disuelto cuando comienza la historia, la serie ve al equipo regresar cuando los miembros originales y nuevos reforman a los Titanes."
+        ,"img":"titanes.jpeg",
+        "type":"series"
+    },
+    {
+        "title":"Hunters",
+        "authors":["David Weil"],
+        "categories":["drama"],
+        "publishedAge":"2020",
+        "description":"Un grupo de cazadores de nazis que vive en la ciudad de Nueva York en 1977 descubre que cientos de antiguos altos funcionarios nazis están conspirando para crear un Cuarto Reich en los Estados Unidos. El ecléctico equipo emprenderá una sangrienta búsqueda para cazarlos y llevarlos ante la justicia."
+        ,"img":"hunters.jpeg",
+        "type":"series"
+    },
+    {
+        "title":"Dragon's Dogma",
+        "authors":["Shin'ya Sugai"],
+        "categories":["anime"],
+        "publishedAge":"2020",
+        "description":"Serie de TV (2020). 7 episodios. Ethan se propone acabar con el dragón que le destrozó el corazón, pero cada demonio al que se enfrenta le hace perder un poco más su humanidad."
+        ,"img":"dragonsdogma.jpg",
+        "type":"series"
+    },
+    {
+        "title":"Luna nera",
+        "authors":["Francesca Comencini","Susanna Nicchiarelli","Paola Randi"],
+        "categories":["love"],
+        "publishedAge":"2020",
+        "description":"Serie de TV (2020). 6 episodios. En la Italia del siglo XVII, una joven descubre su destino junto a una familia de brujas mientras el padre de su novio trata de darle caza por practicar magia negra."
+        ,"img":"lunanera.jpg",
+        "type":"series"
+    },
+    {
+        "title":"juntos, El corazón nunca se equivoca",
+        "authors":["Pablo Ferrer","García-Travesí","Santiago Pineda"],
+        "categories":["adolescence","love","lgtbiq+"],
+        "publishedAge":"2019",
+        "description":"Juntos, el corazón nunca se equivoca es la historia de cinco familias con problemáticas y perfiles muy diferentes: la familia unida, que hace frente a los conflictos y juntos logran una solución; la familia disfuncional, que se reconstruye a partir del amor; la familia perfecta, en destrucción y buscando evolucionar"
+        ,"img":"aristemo.jpeg",
+        "type":"series"
+    },
+    {
+        "title":"Mi marido tiene más familia",
+        "authors":["Héctor Forero López","Pablo Ferrer","García-Travesí"],
+        "categories":["adolescence","love"],
+        "publishedAge":"2017",
+        "description":"Mi marido tiene familia gira en torno a la relación perfecta entre Julieta y Robert, una pareja con los mismos sueños y que viven sin problemas. ... A pesar de todo, Julieta intenta equilibrar su felicidad tanto en lo personal como profesional y Robert se encuentra muy feliz."
+        ,"img":"mimaridotienemasfamilia.jpeg",
+        "type":"series"
+    }
+]

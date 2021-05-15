@@ -1,0 +1,51 @@
+@keyframes logo {
+    0%{
+        transform: scale(0) rotate(360deg);
+    }
+    100%{
+        transform: scale(1) rotate(0deg);
+    }
+}
+@keyframes addUser{
+    0%{
+        transform: scale(0);
+    }
+    90%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes popupIn{
+    from{
+        right:-100%;
+    }
+    to{
+        right: 0;
+    }
+}
+@keyframes login{
+    0%{
+        transform:rotateY(90deg);
+    }
+    100%{
+        transform: rotateY(180deg);
+    }
+}
+@keyframes closeLogin{
+    0%{
+        transform:rotateY(90deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+}
+@keyframes heart-beart{
+    0%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

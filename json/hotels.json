@@ -1,0 +1,46 @@
+[
+    {
+        "title":"Pazo Os Escudos",
+        "address":"Av. da Atlántida, 106, 36208 Vigo, Pontevedra",
+        "tlf":"986 82 08 20",
+        "categories":["luxe"],
+        "description":"Este sofisticado hotel, que ocupa un palacio de piedra, se encuentra a 4 minutos a pie de la playa de Alcabre de la ría de Vigo, a 9 del Museo del Mar y a 6 km de la estación de tren",
+        "img":"pazoosescudos.jpeg",
+        "type":"hotels"
+    },
+    {
+        "title":"Novavila Design Wine Hotel",
+        "address":"36637 Arcos, Pontevedra",
+        "tlf":"988 22 63 60",
+        "categories":["luxe"],
+        "description":"",
+        "img":"novavila.jpeg",
+        "type":"hotels"
+    },
+    {
+        "title":"Carmo's Boutique Hotel",
+        "address":"4990-645, Portugal",
+        "tlf":"+351 910 587 558",
+        "categories":["luxe"],
+        "description":"Este refinado hotel boutique, ubicado en una ladera rodeada de árboles, se encuentra a 2 km de la autopista A3 y del río Limia, y a 5 km de la ciudad medieval de Ponte de Lima",
+        "img":"carmosboutiquehotel.jpeg",
+        "type":"hotels"
+    },
+    {
+        "title":"HOTEL SAN MARCOS",
+        "address":"EP-9502, 23, 36636 Cambados, PontevedraEP-9502, 23, 36636 Cambados, Pontevedra",
+        "categories":["normal"],
+        "description":"Situado a 3 minutos a pie del río Umia, este hotel tranquilo se encuentra a 3 km del Pazo de Fefiñáns, un palacio que data del siglo XVI, y a 13 km de la playa de A Lanzada",
+        "img":"hotelsanmarcos.jpeg",
+        "type":"hotels"
+    },
+    {
+        "title":"Hotel San Luis",
+        "address":"Lugar Paredes, 35, 36141 Vilaboa, Pontevedra",
+        "tlf":"986 70 83 11",
+        "categories":["normal"],
+        "description":"Este hotel informal se encuentra a 7 km del castillo medieval de Sotomayor y a 16 km del pueblo costero de Combarro",
+        "img":"hotelsanluis.jpeg",
+        "type":"hotels"
+    }
+]

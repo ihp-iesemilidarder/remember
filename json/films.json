@@ -1,0 +1,83 @@
+[
+    {
+        "title":"fast & furious 9",
+        "authors":["Gary Scoot","Thompson"],
+        "publishedAge":"2021",
+        "categories":["Action"],
+        "description":"La novena película Fast and Furious sigue las emocionantes aventuras y carreras del equipo de amigos, tras la traición de Dominic Toretto.",
+        "img":"f&f9.jpeg",
+        "type":"films"
+    },
+    {
+        "title":"Las brujas",
+        "authors":["Roald Dahl"],
+        "publishedAge":"2020",
+        "categories":["Adventure"],
+        "description":"Cuenta la conmovedora historia de un pequeño huérfano (Bruno) que, a finales de 1967, se va a vivir con su querida abuela (Spencer) a Demopolis, un pueblo de Alabama. El niño y su abuela tienen extraños encuentros con algunas brujas aparentemente glamurosas pero absolutamente diabólicas, así que ella decide quitarse de en medio y llevarse al chico a un hotel de lujo en la costa. Por desgracia, llegan exactamente al mismo tiempo que la Gran Bruja (Hathaway) que ha reunido a sus compinches de todo el planeta -que van de incógnito- para llevar a cabo sus horribles planes. Adaptación del libro 'Las brujas' de Roald Dahl. (FILMAFFINITY)"
+        ,"img":"lasbrujas.jpeg",
+        "type":"films"
+    },
+    {
+        "title":"Un don excepcional",
+        "authors":["Marc Webb"],
+        "publishedAge":"2017",
+        "categories":["drama"],
+        "description":"Un don excepcional cuenta la historia de Mary (Mckenna Grace), una niña de siete años, nacida en una familia de superdotados. ... Todo lo contrario, en vez de desarrollar su don excepcional, está decidido a darle una vida lo más normal posible que una niña de siete años debería tener."
+        ,"img":"undonexcepcional.jpg",
+        "type":"films"
+    },
+    {
+        "title":"El niño y la bestia",
+        "authors":["Gary Scoot","Thompson"],
+        "publishedAge":"2015",
+        "categories":["anime"],
+        "description":"Kyuta es un niño solitario que vive en Tokio, y Kumatetsu es una criatura sobrenatural aislada en un mundo fantástico. Un día, el niño cruza la frontera al otro mundo y entabla amistad con Kumatetsu, que se convierte en su amigo y guía espiritual. Este encuentro les llevará a vivir multitud de aventuras."
+        ,"img":"elninoylabestia.jpeg",
+        "type":"films"
+    },
+    {
+        "title":"Emma",
+        "authors":["Janne Austen"],
+        "publishedAge":"2020",
+        "categories":["love"],
+        "description":"Guapa, inteligente y rica, la joven Emma Woodhouse es una reina sin rival en su pequeño pueblo. Nueva adaptación de la novela de Jane Austen publicada en 1815 sobre la vida de la joven Emma. El guion corre a cargo de la novelista ganadora del Premio Booker Eleanor Catton, que en el año 2013 se convirtió en la más joven en recibir el prestigioso galardón."
+        ,"img":"emma.jpg",
+        "type":"films"
+    },
+    {
+        "title":"Espontánea",
+        "authors":["Brian Duffield"],
+        "publishedAge":"2020",
+        "categories":["adolescence"],
+        "description":"Una estudiante de último año de secundaria descubre que ella y sus compañeros de clase pueden explotar en cualquier momento."
+        ,"img":"espontanea.jpg",
+        "type":"films"
+    },
+    {
+        "title":"Con Amor, Simon",
+        "authors":["Greg Berlanti"],
+        "publishedAge":"2018",
+        "categories":["lgtbiq+"],
+        "description":"Simon Spiers es un joven de 16 años con una vida normal, unos padres geniales, una hermana pequeña adorable y un estupendo grupo de amigos. Pero Simon tiene un secreto: es gay. Cuando un día uno de sus e-mails cae en manos equivocadas, Simon verá cómo las cosas se complican extraordinariamente, y deberá enfrentarse a una situación que pondrá en peligro la vida que llevaba hasta ese momento"
+        ,"img":"conamorsimon.jpeg",
+        "type":"films"
+    },
+    {
+        "title":"Pantera Negra",
+        "authors":["Ryan Coogler"],
+        "publishedAge":"2018",
+        "categories":["heros"],
+        "description":"'Black Panther' cuenta la historia de T'Challa quien, después de los acontecimientos de 'Capitán América Civil War', vuelve a casa, a la nación de Wakanda, aislada y muy avanzada tecnológicamente, para ser proclamado Rey. Pero la reaparición de un viejo enemigo pone a prueba el temple de T'Challa como Rey y Black Panther ya que se ve arrastrado a un conflicto que pone en peligro todo el destino de Wakanda y del mundo"
+        ,"img":"panteranegra.jpeg",
+        "type":"films"
+    },
+    {
+        "title":"Hoy quiero volver solito",
+        "authors":["Daniel Ribeiro"],
+        "publishedAge":"2010",
+        "categories":["lgtbiq+"],
+        "description":"El film cuenta la historia de Leonardo, un adolescente ciego que se enamora de su nuevo compañero de curso en el colegio, Gabriel. Leonardo tiene que lidiar con los celos de su mejor amiga, Giovana, al mismo tiempo que con el hecho de sentir algo por Gabriel."
+        ,"img":"hoyquierovolversolito.jpeg",
+        "type":"films"
+    }
+]

@@ -1,0 +1,348 @@
+@import url("init.css");
+body > div > div{
+    width: 100%;
+    height: 100vh;
+}
+body > div:first-child{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+/*main*/
+    #main > div{
+        width: 30em;
+        background-image:url("../img/logo_remember.png");
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: cover;
+        position: relative;
+        margin: auto;
+        height: 30em;
+        top:calc(50%/2);
+        filter: drop-shadow(0px 0px 15px rgba(0,0,0,.8));
+        animation-name: logo;
+        animation-duration: 1s;
+    }
+    #main > #logo_main{
+        width: 30em;
+        background-image:url("../img/logo_remember.png");
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: cover;
+        position: relative;
+        margin: auto;
+        height: 30em;
+        top:calc(50%/2);
+        filter: drop-shadow(0px 0px 15px rgba(0,0,0,.8));
+        animation-name: closeLogin;
+        animation-duration: .5s;
+    }
+    #main > div img{
+        bottom: 5%;
+        margin: 0 45%;
+        position: absolute;
+        cursor: pointer;
+    }
+    #main .fa-user-plus{
+        font-size: 3em;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin:2%;
+        cursor: pointer;
+        animation-name: addUser;
+        animation-duration: 2s;
+        color: var(--add-user);
+    }
+
+/*description*/
+    #description > video{
+        width: 70%;
+        position: absolute;
+        left: 30%;
+        border-radius: 20px 0 0 20px;
+    }
+    #description > div{
+        background-color: var(--rose);
+        position: absolute;
+        margin:10% 0 10% 3%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #description > div > h1{
+        font-family: "Norwester";
+        font-size: 4em;
+        margin: 5% 0 1% 7%;
+    }
+    #description > div > hr{
+        border: 3px solid white;
+        margin:0 7%;
+    }
+    #description > div > p{
+        font-size: 2em;
+        margin: 3% 7%;
+    }
+/*events*/
+    #events h2{
+        font-family: "Kollektif-bold";
+        font-weight: bold;
+        font-size: 5em;
+        color: white;
+        text-align: center;
+        margin:0 0 5% 0;
+    }
+    #events > div{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        height: 50vh;
+        width: 100%;
+    }
+    #events > div > div{
+        background-color: white;
+        margin: 5%;
+        border-radius: 30% 0;
+    }
+    #events > div > div:hover{
+        transform: scale(1.05);
+        border-radius: 0 0;
+        transition: 1s;
+    }
+    #events > div h3{
+        font-family: "kollektif-bold";
+        font-size: 3em;
+        
+        color: white;
+        text-align: right;
+        margin: 10%;
+    }
+    #events > div > div:not(:hover){
+        border-radius: 30% 0;
+        transition: 1s;
+    }
+    #events #music{
+        background: url(../img/music.jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    #events #games{
+        background: url(../img/games.jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    #events #trips{
+        background: url(../img/trips.jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+/*register*/
+    #register{
+        background: var(--rose);
+        padding: 5%;
+        position:fixed;
+        top: 0;
+        margin: 2% 23%;
+        width: 50%;
+        border-radius: 20% 50px;
+        box-shadow: 40px 30px 10px rgba(0,0,0,.2);
+        animation: fadeInTopRight;
+        animation-duration: 2s;
+        display: none;
+    }
+    #register h2{
+        font-size:3em;
+        font-family: "Kollektif-bold";
+        text-align: center;
+    }
+    #register hr{
+        border: 3px solid black;
+        width: 80%;
+        margin: auto;
+    }
+    /*form*/
+        #register form{
+            margin: 2%;
+        }
+        #register form > div{
+            display: flex;
+            justify-content: space-between;
+        }
+        #register form label{
+            font-size: 1.5em;
+            font-family:Kollektif-bold;
+        }
+        #register form > div{
+            margin: 2% 0;
+        }
+        #register form input{
+            margin: 5px;
+            font-size: 1.2em;
+            padding-left:10px;
+            border:0;
+            border-bottom: 2px dotted rgba(0,0,0,.5);
+            background: transparent;
+        }
+        #register form input, #register form select{
+            color:rgba(0,0,0,.5);
+            transition: 1s;
+            outline: none;
+        }
+        #register form input:focus, #register form select:focus{
+            color:black;
+            transition: 1s;
+        }
+        #register form select{
+            width: 40%;
+            font-size: 1.2em;
+            background: rgba(255,255,255,.5);
+            border-radius: 10px 0 0 10px;
+            padding: 0 0 0 10px;
+        }
+        #register form div#passwords{
+        display: grid;
+        }
+        #register form input[type="date"]{
+            border: 2px dotted rgba(0,0,0,.5);
+        }
+        #register .fa-times{
+            font-size: 3em;
+            color: rgba(255,255,255,.5);
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            cursor: pointer;
+        }
+        /*gender*/
+            .genderSelected{
+                transition: 1s;
+                background-color: rgba(255,255,255,.5);
+                box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+            }
+            #gender{
+                display: grid!important;
+                grid-template-columns: auto auto auto;
+                grid-template-rows: auto;
+                margin: 0 15% !important;
+            }
+            #gender > div{
+                position: relative;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                padding: 5vh;
+                cursor: pointer;
+                transition: 1s;
+                border-radius: 50% 10%;
+            }
+            #gender #male{
+                background-image: url(../img/male.svg);
+            }
+            #gender #female{
+                background-image: url(../img/female.svg);
+            }
+            #gender #other{
+                background-image: url(../img/other_gender.png);
+            }
+        /*submit*/
+            #register form button{
+                background: transparent;
+                border: none;
+                cursor: pointer;
+                position: absolute;
+                right: 0;
+                background: var(--rose);
+                padding: 4%;
+                border-radius: 100%;
+                bottom: 0;
+            }
+            #register form button i{
+                font-size: 3em;
+                color: rgba(255,255,255,.5);
+            }
+            #register form button i:hover{
+                transform: scale(1.2);
+                transition: 1s;
+            }
+            #register form button i:not(:hover){
+                transition: 1s;
+            }
+/*popup message*/
+    #message{
+        position: fixed;
+        width: 40%;
+        padding: 2%;
+        right: 0;
+        border-radius: 20px;
+        margin: 2%;
+        bottom: 0;
+        font-size: 1.2em;
+        color: white;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+        animation-name: popupIn;
+        animation-duration: 1s;
+        display: none;
+        text-align: right;
+    }
+/*login*/
+    #main > #login{
+        width: 30em;
+        background-image:url("../img/bg_login.png");
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: cover;
+        position: relative;
+        margin: auto;
+        height: 30em;
+        top:calc(50%/2);
+        filter: drop-shadow(0px 0px 15px rgba(0,0,0,.8));
+        animation-name: login;
+        animation-duration: .5s;
+        transform: rotateY(180deg);
+    }
+    #main > #login h2, #main > #login form{
+        transform: rotateY(180deg);
+    }
+    #login h2{
+        font-size: 4em;
+        text-align: center;
+        font-family: "Playlist-Script";
+        padding: 11% 0 3% 0;
+    }
+    #login form .input-container{
+        display: flex;
+        width: 76%;
+        margin: 2% auto;
+        font-size: 2em;
+        border: 5px solid var(--login-input);
+        border-radius: 10px;
+        background: var(--login-input);
+        position: relative;
+    }
+    #login form .icon{
+        background: var(--login-input);
+        padding: 2%;
+        color: rgba(255,255,255,.5)
+    }
+    #login form .input-field{
+        width: 100%;
+        border-radius: 10px;
+        padding: 0 5%;
+        font-family: "Playlist-Script";
+        font-size: .5em;
+    }
+    #login form .buttons{
+        position: relative;
+        font-size: 4em;
+        text-align: center;
+        margin: 6% 0 0 0;
+    }
+    #login form .buttons i{
+        margin: 5%;
+        cursor: pointer;
+    }
+    #login .fa-sign-in-alt{
+        color: rgba(130, 236, 253, 0.5);
+    }
+    #login .fa-times{
+        color: rgba(255,0,0,.2);
+    }

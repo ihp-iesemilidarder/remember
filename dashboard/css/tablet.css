@@ -1,0 +1,48 @@
+@media (max-width:768px){
+    main{
+        grid-template-columns: auto;
+        grid-template-rows: 30% auto;
+        grid-gap: 13%;
+    }
+    /*profile*/
+        .fa-user{
+            top: 30%;
+            margin: 3%;
+            position: absolute;
+            z-index: 0;
+        }
+        #profile > span{
+            left: -160px;
+            bottom: 18px;
+        }
+    /*articles*/
+    article{
+        grid-template-columns: auto auto;
+    }
+    /*menu bar*/
+        aside{
+            margin: 0;
+            border-radius: 0;
+            height: 100%;
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: 30% auto;
+        }
+        aside input[type="text"]{
+            margin: 4%!important;
+        }
+        aside ul li{
+            padding: 2%;
+        }
+        aside > div:last-child{
+            overflow: auto;
+            position: relative;
+        }
+        aside ul > li:hover,aside ul > li:first-child:hover{
+            border-radius: 0;
+        }
+    /*pagination*/
+      div#pagination{
+          width: 8%;
+      }
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <script src="https://kit.fontawesome.com/b726100c3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/modules/wow.min.js"></script>
+    <script src="js/modules/sha512.js"></script>
+    <title>Remember     ❤️</title>
+</head>
+<body>
+    <div>
+        <div id="main">
+            <div>
+                <img src="img/btn_shutdown_green.png" alt="login" class="signin">
+            </div>
+            <i class="fas fa-user-plus"></i>
+        </div>
+        <div id="description">
+            <video autoplay loop class="wow animate__animated animate__zoomInDown animate__delay-2s" id="presentation_movie">
+                <source src="mov/video_presentation.mp4" type="video/mp4">
+            </video>
+            <div class="wow animate__animated animate__backInLeft">
+                <h1>LOVE REMEMBER</h1>
+                <hr>
+                <p>
+                   Comparte recuerdos experiencias y más, con los tuyos
+                </p>
+            </div>
+        </div>
+        <div id="events">
+            <h2 class="wow animate__animated animate__rotateInDownRight">Eventos</h2>
+            <div>
+                <div id="music" class="wow animate__animated animate__rotateIn">
+                    <h3>Música</h3>
+                </div>
+                <div id="games" class="wow animate__animated animate__rotateIn animate__delay-1s">
+                    <h3>Videojuegos</h3>
+                </div>
+                <div id="trips" class="wow animate__animated animate__rotateIn animate__delay-2s">
+                    <h3>Viajes</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="register">
+        <h2>Registrarse</h2>
+        <hr>
+        <form action="POST" action="#">
+            <div>
+                <label for="">Nick</label>
+                <input type="text" name="nick">
+            </div>
+            <div>
+                <label for="">password</label>
+                <div id="passwords">
+                    <input type="password" id="password">
+                    <input type="password" id="match_password" placeholder="confirmar contraseña">
+                </div>
+            </div>
+            <div>
+                <label for="">Gustos</label>
+                <select multiple id="selectPleasures">
+                    <optgroup label="Música">
+                        <option value="M-lgtbiq">LGTBIQ+</option>
+                        <option value="M-pop">Pop</option>
+                        <option value="M-Jazz">Jazz</option>
+                        <option value="M-classic">Clássca</option>
+                        <option value="M-top">Top</option>
+                    </optgroup>
+                    <optgroup label="Peliculas">
+                        <option value="F-Action">Acción</option>
+                        <option value="F-Adventure">Aventura</option>
+                        <option value="F-drama">Drama</option>
+                        <option value="F-anime">Anime</option>
+                        <option value="F-love">Amor</option>
+                        <option value="F-adolescence">Adolescencia</option>
+                        <option value="F-lgtbiq">LGTBIQ+</option>
+                        <option value="F-heros">Heroes</option>
+                    </optgroup>
+                    <optgroup label="Series">
+                        <option value="S-Action">Acción</option>
+                        <option value="S-Adventure">Aventura</option>
+                        <option value="S-drama">Drama</option>
+                        <option value="S-anime">Anime</option>
+                        <option value="S-love">Amor</option>
+                        <option value="S-adolescence">Adolescencia</option>
+                        <option value="S-lgtbiq">LGTBIQ+</option>
+                    </optgroup>
+                    <optgroup label="videojuegos">
+                        <option value="G-Action">Acción</option>
+                        <option value="G-Adventure">Aventura</option>
+                        <option value="G-open_world">Mundo Abierto</option>
+                        <option value="G-anime">Anime</option>
+                        <option value="G-2D">2D</option>
+                        <option value="G-3D">3D</option>
+                        <option value="G-heros">Heroes</option>
+                    </optgroup>
+                    <optgroup label="restaurantes">
+                        <option value="R-mexic">Mexicano</option>
+                        <option value="R-fast_food">Comida Rápida</option>
+                        <option value="R-relax">Relax</option>
+                        <option value="R-hamburguer">Hamburguesa/Carne</option>
+                    </optgroup>
+                    <optgroup label="hoteles">
+                        <option value="H-luxe">Lujo</option>
+                        <option value="H-normal">Normal</option>
+                    </optgroup>
+                    <optgroup label="viajes">
+                        <option value="T-relax">Relax</option>
+                        <option value="T-family">Familiares</option>
+                        <option value="T-honeymoon">Luna de miel/Amoroso</option>
+                        <option value="T-parties">Fiestas</option>
+                        <option value="T-all_inclusive">Todo incluido</option>
+                        <option value="T-breakfast">Desayuno</option>
+                        <option value="T-food">Comida</option>
+                        <option value="T-dinner">Cena</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label for="">Fecha de nacimiento</label>
+                <input type="date">
+            </div>
+            <div id="gender" data-value="">
+                <div id="male" class="chooseGender"></div>
+                <div id="female" class="chooseGender"></div>
+                <div id="other" class="chooseGender"></div>
+            </div>
+            <div>
+                <button id="send" type="button">
+                    <i class="fas fa-sign-in-alt"></i>
+                </button>
+            </div>
+            <i class="fas fa-times"></i>
+        </form>
+    </div>
+    <div id="message">
+        <i class="fas fa-times"></i>
+    </div>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>

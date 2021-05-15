@@ -1,0 +1,119 @@
+[
+    {
+        "title":"Es por tí",
+        "authors":["Emilio Osorio","Joaquín Bondoni"],
+        "categories": ["lgtbiq+","love"],
+        "publishedAge":"2019",
+        "mp3":"esporti",
+        "img":"esporti.jpeg",
+        "type":"music"
+    },
+    {
+        "title":"Hello",
+        "authors":["Adele"],
+        "categories":["pop"],
+        "publishedAge":"2015",
+        "mp3":"hello",
+        "img":"hello.jpeg",
+        "type":"music"
+    },
+    {
+        "title":"Blue In Green",
+        "authors":["Miles Davis"],
+        "categories":["jazz"],
+        "publishedAge":"1959",
+        "mp3":"blueingreen",
+        "img":"blueingreen.jpeg",
+        "type":"music"
+    },
+    {
+        "title":"Symphony nº40",
+        "authors":["Mozart"],
+        "categories":["classic"],
+        "publishedAge": "1788",
+        "mp3":"symphony40",
+        "img":"sinfonia40.jpeg",
+        "type":"music"
+    },
+    {
+        "title":"LOCATION",
+        "authors":["Karol G","Anuel AA","J. Balvin"],
+        "categories":["top"],
+        "publishedAge": "2021",
+        "mp3":"LOCATION",
+        "img":"location.jpg",
+        "type":"music"
+    },
+    {
+        "title":"Amor valiente",
+        "authors":["Emilio Osorio","Joaquín Bondoni"],
+        "categories":["lgtbiq+","love"],
+        "publishedAge":"2019",
+        "mp3":"amorvaliente",
+        "img":"amorvaliente.jpeg",
+        "type":"music"
+    },
+    {
+        "title":"Counting Stars",
+        "authors":["OnePublic"],
+        "categories":["pop"],
+        "publishedAge":"2013",
+        "mp3":"countingstars",
+        "img":"countingstars.jpeg",
+        "type":"music"
+    },
+    {
+        "title":"What A wonderful World",
+        "authors":["Louis Armstrong"],
+        "categories":["jazz","top"],
+        "publishedAge":"1967",
+        "mp3":"whatawonderfulworld",
+        "img":"whatawonderfulworld.jpeg",
+        "type":"music"
+    },
+    {
+        "title":"Sinfonia nº5",
+        "authors":["Beethoven"],
+        "categories":["classic"],
+        "publishedAge":"1808",
+        "mp3":"sinfonia5",
+        "img":"sinfonia5.jpeg",
+        "type":"music"
+    },
+    {
+        "title":"Ropa cara",
+        "authors":["Camilo"],
+        "categories":["top"],
+        "publishedAge":"2021",
+        "mp3":"ropacara",
+        "img":"ropacara.jpeg",
+        "type":"music"
+    },
+    {
+        "title":"Si me dices que me quieres",
+        "authors":["Joaquín Bondoni"],
+        "categories":["lgtbiq+","love"],
+        "publishedAge":"2019",
+        "mp3":"simedicesquemequieres",
+        "img":"simedicesquemequieres.jpeg",
+        "type":"music"
+    },
+    {
+        "title":"Labios de Miel",
+        "authors":["Emilio Osorio"],
+        "categories":["love"],
+        "publishedAge":"2018",
+        "mp3":"labiosdemiel",
+        "img":"labiosdemiel.jpeg",
+        "type":"music"
+    },
+    {
+        "title":"Juegos de Amor",
+        "authors":["Emilio Osorio"],
+        "categories":["love","lgtbiq+"],
+        "publishedAge":"2018",
+        "mp3":"juegosdeamor",
+        "img":"juegosdeamor.jpeg",
+        "type":"music"
+    }
+]

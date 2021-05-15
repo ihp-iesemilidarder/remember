@@ -1,0 +1,40 @@
+@media (max-width:600px){
+    /*menu bar*/
+        aside{
+            border-radius: 0;
+            box-shadow:1px 1px 10px rgba(0,0,0,.5);
+        }
+        aside ul{
+            font-size: 1.5em;
+        }
+        aside ul li{
+            padding: 2% 3%;
+        }
+        aside ul li:hover, aside ul li:first-child:hover{
+            border-radius: 0;
+        }
+    /*profile*/
+        .fa-user{
+            top: 33%!important;
+            margin: 3%;
+            font-size: 2em;
+        }
+        #profile > span{
+            left: -140px!important;
+            bottom: 5px;
+            font-size: 20px;
+        }
+    /*articles*/
+        article{
+            grid-template-columns: auto!important;
+        }
+        article > div{
+            grid-template-rows: 40vh auto;
+            max-height: 100vh;
+        }
+    /*pagination*/
+    #pagination{
+        width: 16%!important;
+        margin:2%;
+    }
+}
